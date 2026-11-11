@@ -155,7 +155,7 @@ function lib:GetAttributes()
 end
 function lib:RemoveAttribute(r)
     if self.Attributes then
-        self.Attribute[r] = nil
+        self.Attributes[r] = nil
     end
 end
 function lib:Clone()
